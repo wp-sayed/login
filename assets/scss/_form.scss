@@ -1,0 +1,56 @@
+/* form style*/
+   .box{
+	width: 400px;
+	padding: 40px;
+	@include mid-con;
+	text-align: center;
+	background: $background-color;
+	h1{
+		color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+	}
+
+	input[type="text"],input[type="password"]{
+		border: 0;
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		border: 2px solid $border-color;
+		outline: 0;
+		padding: 14px 10px;
+		width: 200px;
+		border-radius: 24px;
+		color: white;
+		transition: .25s;
+	}
+
+	input[type="text"]:focus,input[type="password"]:focus{
+			width: 280px;
+			border-color: $border-hover;
+		}
+    input[type="submit"]{
+			  border: 0;
+		      background: none;
+		      display: block;
+		      margin: 20px auto;
+		      text-align: center;
+		      border: 2px solid $border-hover;
+		      outline: 0;
+		      padding: 14px 40px;
+		      border-radius: 24px;
+		      color: white;
+		      transition: .25s;
+		}
+		input[type="submit"]:hover{
+			background: $border-hover;
+		}
+} 
+
+/*button style*/
+body{
+	 margin: 200px;
+}
+
+
